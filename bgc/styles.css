@@ -1,0 +1,23 @@
+#intro {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#intro {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#copy {
+    grid-column: 1;
+    grid-row: 2 / 3;
+}
+
+input {
+    margin: .5rem;
+}
+
+#submit-btn {
+    display: inline-block;
+    align-content: center;
+}
